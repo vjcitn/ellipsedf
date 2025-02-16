@@ -22,7 +22,11 @@ df2ellipses = function(datf, npts=100) {
 }
 ```
 
-with elldf to produce
+with elldf to produce with, say,
+```
+df2ellipses(elldf) -> oo2
+ggplot2::ggplot(oo2) + ggplot2::geom_sf()
+```
 
 ![](ellipses.png)
 
