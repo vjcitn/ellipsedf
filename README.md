@@ -24,4 +24,6 @@ df2ellipses = function(datf, npts=100) {
 
 with elldf to produce
 
+![](ellipses.png)
+
 
